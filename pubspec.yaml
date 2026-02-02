@@ -1,0 +1,38 @@
+name: geo_bot
+description: A Flutter app that calculates distance to a destination using GPS location.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Location and distance calculation
+  geolocator: ^10.1.0
+  
+  # Google Maps
+  google_maps_flutter: ^2.5.0
+  google_maps_flutter_web: ^0.5.4
+  
+  # Place search and geocoding
+  geocoding: ^2.1.1
+  
+  # HTTP requests for places autocomplete
+  http: ^1.2.0
+  
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Uncomment to add assets
+  # assets:
+  #   - assets/images/
